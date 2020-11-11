@@ -1,0 +1,166 @@
+#app {
+    background-color: black;
+    max-height: 100vh;
+}
+
+body {
+    max-height: 100%;
+    margin: 0px;
+    background-color: black;
+}
+
+/* HEADER */
+.header{
+    max-width: calc(100% - 40px);
+    padding: 0px 20px;
+    display: flex;
+}
+  
+.header h3 {
+    color: rgb(169, 169, 169);
+}
+
+.header input {
+    height: 50px;
+    margin: auto;
+}
+
+.change-username-button{
+    height: 5vh;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: auto;
+    background: rgb(195,34,136);
+    background: linear-gradient(0deg, rgba(195,34,136,1) 0%, rgba(151,45,253,1) 100%);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+/* USER NAME FORM */
+.user-name-form  {
+    display: flex;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.user-name-input-label {
+    color: rgb(169, 169, 169);
+    font-size: 20px;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.user-name-input-label input {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.submit-new-name-button{
+    height: 5vh;
+    margin: auto;
+    margin-left: 20px;
+    background: rgb(195,34,136);
+    background: linear-gradient(0deg, rgba(195,34,136,1) 0%, rgba(151,45,253,1) 100%);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* MESSAGES */
+.message{
+    width: 98%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.sent-message{
+    margin-left: auto;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 70%;
+    background: rgb(195,34,136);
+    background: linear-gradient(0deg, rgba(195,34,136,1) 0%, rgba(151,45,253,1) 100%);
+}
+
+.received-message{
+    margin-right: auto;
+    max-width: 70%;
+    background-color:  #3E4042;
+    color: #e4e6eb;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.messages-div {
+    width: calc(100% - 20px);
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.messages-div::-webkit-scrollbar {
+    display: none;
+}
+  
+/* FORM */
+.input{
+    /* width: calc(100% - 20px); */
+    display: flex;
+    height: 50px;
+    padding: 0px 10px;
+}
+
+.text-input-div {
+    width: 75%;
+    margin:10px;
+    min-height: 35px;
+}
+
+.send-button-div{
+    width: 20%;
+    margin: 7px;
+}
+
+.text-input{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+
+.submit-button {
+    width: 100%;
+    height: 100%;
+    background: rgb(195,34,136);
+    background: linear-gradient(0deg, rgba(195,34,136,1) 0%, rgba(151,45,253,1) 100%);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 68px);
+}
+  
