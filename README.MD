@@ -1,1 +1,3 @@
-AQUÍ VA El ReadMe GGG
+## Ejecución del proyecto
+- npm  install
+- node server.js
